@@ -4,129 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noel Emaas - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/20dca241fc.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>nemaas-resume</title>
 </head>
 <body>
-    <div>
-        <img src="photo.jpg" alt="emaas_photo" height="200px" width="200px">
-        <h1>Noel B. Emaas</h1>
-        <h3>Android Engineer</h3>
-        <p>Block 9, Lot 11, Cokevill Subdivision, San Felipe, Naga City</p>
-        <p>Cotact: 09123456789</p>
-        <p>Block 9, Lot 11, Cokevill Subdivision, San Felipe, Naga City</p>
-        <h3>Summary</h3>
-        <p>A BS Computer Science Student with almost 4 years of programming experience. Graduated in
-            Computer Programming track in Senior High School with High Honor. A programmer that is fond
-            of problem solving and has decent knowledge in Android and Web development and is motivated
-            to improve knowledge and skills in the area of Android app development.</p>
-    </div>
-    <hr/>
-    <div>
-        <div>
-            <h3>Work Experience</h3>
-            <ul>
-                <li>
-                    <div>
-                        <p><b>Android Engineer at CoderArmy.dev</b></p>
-                        <p><i>November 2022 - Present</i></p>
+    <div id="container">
+        <div id="page-container">
+            <div id="heading">
+                <div id="info">
+                    <div id="name">
+                        <p>NOEL EMAAS</p>
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Education</h3>
-            <ul>
-                <li>
-                    <div>
-                        <p><b>Bachelor of Science in Computer Science</b></p>
-                        <p>Ateneo de Naga University</p>
-                        <p>Ateneo Avenue, Naga City, Camarines Sur</p>
-                        <p><i>2021 - Present</i></p>
+                    <div id="position">
+                        <p>ANDROID ENGINEER</p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <p><b>TVL – ICT Computer Programming</b></p>
-                        <p>Camarines Sur National High School</p>
-                        <p>Peñafrancia Avenue, Naga City, Camarines Sur</p>
-                        <p><i>2019 - 2021</i></p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <hr/>
-    <div>  
-        <h3>Tech Stack</h3> 
-        <table>
-            <tr>
-                <th>
-                    Language
-                </th>
-                <th>
-                    Skill Progress
-                </th>
-            </tr>
-            <tr>
-                <td>Kotlin</td>
-                <td><progress max="100" value="70"></progress></td>
-            </tr>
-            <tr>
-                <td>Jetpack Compose</td>
-                <td><progress max="100" value="60"></progress></td>
-            </tr>
-            <tr>
-                <td>HTML & CSS</td>
-                <td><progress max="100" value="70"></progress></td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td><progress max="100" value="60"></progress></td>
-            </tr>
-            <tr>
-                <td>C++</td>
-                <td><progress max="100" value="75"></progress></td>
-            </tr>
-        </table>
-    </div>
-    <hr/>
-    <div>
-        <h3>References</h3>
-        <ol>
-            <li>
-                <div>
-                    <p><b>Maricel Fornaleza</b></p>
-                    <p><i>mfornaleza@gmail.com</i></p>
                 </div>
-            </li>
-            <li>
-                <div>
-                    <p><b>Rhymart Manchus</b></p>
-                    <p><i>rmanchus@gmail.com</i></p>
+            </div>
+            <div id="mid-area">
+                <div id="left-area">
+                    <div id="image-container">
+                        <img src="photo.jpg" alt="photo" width="170" height="170">
+                    </div>
+                    <div id="summary">
+                        <p class="label">PROFILE</p>
+                        <hr size="0.5px">
+                        <p>
+                            A BS Computer Science Student with almost 4 years of programming experience. Graduated in
+                    Computer Programming track in Senior High School with High Honor. A programmer that is fond
+                    of problem solving and has decent knowledge in Android and Web development and is motivated
+                    to improve knowledge and skills in the area of Android app development.
+                        </p>
+                    </div>
                 </div>
-            </li>
-        </ol>
-    </div>
-    <hr/>
-    <div>
-        <h3>Certification</h3>
-        <ul>
-            <li>
-                <p><b>2nd Place Ateneo Computer Programmig Competition 2021</b></p>
-            </li>
-            <li>
-                <p><b>Problem Solving (Basic) HackerRank</b></p>
-            </li>
-            <li>
-                <p><b>Problem Solving (Intermediate) HackerRank</b></p>
-            </li>
-            <li>
-                <p><b>Java (Basic) HackerRank</b></p>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <a href="./contact-page.html">Contact Me</a>
+                <div id="center-area">
+                    <div class="spacer"></div>
+                    <div id="experience">
+                        <p class="label">EXPERIENCE</p>
+                        <hr size="0.5px">
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:30%">
+                                    <div>
+                                        <p><b>2022 - Present</b></p>
+                                        <p><i>CodeArmy.dev</i></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p><b>Android Engineer</b></p>  
+                                        <p>Designed and developed Android Applications</p>                          
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">
+                                    <div>
+                                        <p><b>2020 - 2021</b></p>
+                                        <p><i></i></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p><b>Web Developer</b></p>  
+                                        <p>Designed and  developed Teacher-Student activity monitoring web application.</p>                          
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="education">
+                        <p class="label">EDUCATION</p>
+                        <hr size="0.5px">
+                        <table style="width:100%">
+                            <tr>
+                                <td style="width:30%">
+                                    <div>
+                                        <p><b>2021 - Present</b></p>
+                                        <p><i>College</i></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p><b>Bachelor of Science in Computer Science</b></p>                            
+                                        <p>Ateneo de Naga University</p>
+                                        <p>Ateneo Avenue, Naga City, Camarines Sur</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">
+                                    <div>
+                                        <p><b>2019 - 2021</b></p>
+                                        <p><i>Senior Highschool</i></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p><b>TVL - ICT Computer Programming</b></p>                            
+                                        <p>Camarines Sur National High School</p>
+                                        <p>Peñafrancia Avenue, Naga City, Camarines Sur</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="certification">
+                        <p class="label">CERTIFICATIONS</p>
+                        <hr size="0.5px">
+                        <ol>
+                            <li>2nd Place Ateneo Computer Programming Competition 2021</li>
+                            <li>Problem Solving (Basic) HackerRank</li>
+                            <li>Problem Solving (Intermediate) HackerRank</li>
+                            <li>Java (Basic) HackerRank</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-area">
+                <div id="contacts">
+                    <p class="label">CONTACTS</p>
+                    <hr size="0.5px">
+                    <ul>
+                        <li><p><i class="fa-solid fa-location-dot"></i> San Felipe, Naga City</p></li>
+                        <li><p><i class="fa-solid fa-phone"></i></i>+639123456789</p> </li>
+                        <li><p><i class="fa-solid fa-envelope"></i>nemaas@gbox.adnu.edu.ph</p></li>
+                        <li><i class="fa-brands fa-github"></i><a href="https://github.com/NoelEmaas">github</a></li>
+                        <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/mrleonemaas">facebook</a></li>
+                        <li><i class="fa-solid fa-paper-plane"></i><a href="./contact-page.html">Get In Touch</a></li>
+                    </ul>
+                </div>
+                <div id="bottom-right">
+                    <div id="tech-skills">
+                        <p class="label">TECH STACK</p>
+                        <hr size="0.5px">
+                        <table style="width:100%" id="stack-table">
+                            <tr>
+                                <td style="width:30%">Kotlin</td>
+                                <td>JavaScript</td>
+                                <td>HTML & CSS</td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%">Java</td>
+                                <td>Jetpack Compose</td>
+                                <td>C++</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="references">
+                        <p class="label">REFERENCES</p>
+                        <hr size="0.5px">
+                        <div id="ref-container">
+                            <div class="ref">
+                                <p><b>Maricel Fornaleza</b></p>
+                                <div class="reference-info">
+                                    <p>Web Developer</p>
+                                    <p><i>mfornaleze@gmail.com</i></p>
+                                </div>
+                            </div>
+                            <div id="vr"></div>
+                            <div class="ref">
+                                <p><b>Rhymart Manchus</b></p>
+                                <div class="reference-info">
+                                    <p>Software Developer</p>
+                                    <p><i>rmanchus@gmail.com</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
