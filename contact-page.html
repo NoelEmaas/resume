@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/20dca241fc.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    <a href="./index.html"> ← BACK</a>
-    <h1>Drop me a message</h1>
-    <form>
-        <input type="text" placeholder="Enter name"/><br/>
-        <input type="email" placeholder="Enter email address"/><br/>
-        <textarea type="text" name="message" cols="25" rows="10" placeholder="Your message here"></textarea><br/>
-        <input type="submit" name="submit" value="Submit"/>
-        <input type="reset" name="reset" value="Reset"/>
-    </form>
-    <a href="https://www.facebook.com/mrleonemaas">Facebook</a>
-    <a href="https://github.com/NoelEmaas">GitHub</a>
+    <div id="back-button">
+        <i class="fa-solid fa-arrow-left"></i><a href="./index.html">Back</a>
+    </div>
+    <div id="contact-page">
+        <h1>Drop me a message</h1>
+        <form>
+            <input type="text" placeholder="Enter name"/><br/>
+            <input type="email" placeholder="Enter email address"/><br/>
+            <textarea type="text" name="message" cols="25" rows="5" placeholder="Your message here"></textarea><br/>
+            <input type="submit" name="submit" value="Submit"/>
+            <input type="reset" name="reset" value="Reset"/>
+        </form>
+        <div id="socials">
+            <p><i>or through</i></p>
+            <a href="https://www.facebook.com/mrleonemaas"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/NoelEmaas"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
 </body>
 </html>
