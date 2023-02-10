@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3, h2, h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Yeseva One', cursive;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#container {
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 800px;
+    height: 875px;
+    padding: 40px;
+    margin-left: -400px;
+    margin-top: -438px;
+    box-shadow: 0px 0px 2px 0px #acacac;
+    border: 1px solid #DADCE0;
+    transition: 0.3s;
+}
+
+#container:hover, #contact-page:hover {
+    box-shadow: 0px 0px 10px 0px #acacac;
+}
+
+#page-container {
+    width: 720px;
+    height: auto;
+}
+
+#heading {
+    width: 720px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#name {
+    font-size: 3em;
+    font-family: 'Yeseva One', cursive;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+#position {
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+#contacts {
+    width: 220px;
+}
+
+#info {
+    width: 380px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#left-area {
+    width: 220px;
+    height: 200px;
+}
+
+#image-container {
+    width: 180px;
+    height: 250px;
+    text-align: center;
+}
+
+#image-container img {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgb(22, 22, 22);
+}
+
+#contacts ul {
+    list-style: none;
+}
+
+#contacts ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#summary {
+    width: 220px;
+    height: 300px;
+}
+
+.label {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+}
+
+#mid-area {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.88em;
+    height: 490px;
+}
+
+#experience {
+    width: 500px;
+    height: 150px;
+    padding-left: 40px;
+}
+
+.spacer {
+    height: 30px;
+}
+
+td {
+    vertical-align: top;
+}
+
+tr,
+td {
+    padding-bottom: 20px;
+}
+
+#education {
+    height: 170px;
+    padding-left: 40px;
+}
+
+#stack {
+    width: 220px;
+}
+
+#bottom-area {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.88em;
+}
+
+#references {
+    width: 500px;
+    height: 100px;
+    padding-left: 40px;
+}
+
+#certification {
+    width: 500px;
+    padding-left: 40px;
+}
+
+ol{
+    padding-left: 20px;
+}
+
+ol li {
+    padding-bottom: 5px;
+}
+
+#ref-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ref {
+    padding-right: 60px;
+}
+
+.reference-info {
+    font-size: 0.8em;
+}
+
+#vr {
+    height: 50px;
+    width: 1px;
+    background-color: #9A9A9A;
+    margin-right: 50px;
+}
+
+#tech-skills {
+    padding-left: 40px;
+    height: 95px;
+}
+
+#stack-table td{
+    padding-bottom: 0px;
+}
+
+#contacts ul li i {
+    padding-right: 10px;
+}
+
+#contacts ul li {
+    padding-bottom: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contact-page {
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 450px;
+    height: 580px;
+    padding: 40px;
+    margin-left: -225px;
+    margin-top: -290px;
+    box-shadow: 0px 0px 2px 0px #acacac;
+    border: 1px solid #DADCE0;
+    transition: 0.3s;
+}
+
+#contact-page h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  textarea {
+    margin-bottom: 30px;
+  }
+  
+  input[type=submit], input[type=reset] {
+    width: 100%;
+    background-color: #fafafa;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: 0.4s;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  input[type=submit] {
+    background-color: black;
+    color: white;
+  }
+  
+  input[type=submit]:hover, input[type=reset]:hover  {
+    box-shadow: 0px 0px 5px #c4c4c4;
+  }
+
+  #back-button {
+    padding: 20px;
+  }
+
+  #back-button i {
+    padding-right: 10px;
+  }
+
+  #socials {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  #socials i {
+    padding: 10px;
+    font-size: 1.5em;
+    transition: 0.4s;
+    color: #3d3d3d;
+  }
+
+  #socials i:hover {
+    font-size: 1.6em;
+    color: black;
+  }
+
+  #socials hr {
+    margin: 0 auto;
+  }
+
+  #socials p{
+    font-size: 0.5em;
+    padding-bottom: 5px;
+  }
+
